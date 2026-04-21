@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "",
+  github: "https://github.com/Carabantech",
   linkedin: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/",
   gmail: "carabante@outlook.com",
   gitlab: "",
