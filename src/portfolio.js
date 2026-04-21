@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sebastian Mauricio Carabante",
+  title: "Hi, I'm Sebastian",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Senior IT Manager with 15+ years driving infrastructure excellence 🚀 | Cloud • Systems • Networks • Security | Leading LATAM operations at CME-Wakapi | AWS & Azure Certified"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "",
+  linkedin: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/",
+  gmail: "carabante@outlook.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Infrastructure & Operations",
+  subTitle: "ENTERPRISE IT LEADERSHIP & CLOUD ARCHITECTURE SPECIALIST",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Lead IT operations, infrastructure planning & systems administration across distributed international teams"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Design & manage cloud environments (AWS, Azure) with focus on security, reliability & cost optimization"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Drive digital transformation through vendor management, process improvement & emerging technology adoption"
     )
   ],
 
@@ -65,56 +65,52 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Windows Server",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "VMware",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Networking",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "Cybersecurity",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    },
+    {
+      skillName: "Firewalls",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-cube"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +122,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Fundacion Universitas",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Technical Degree in New Technology Administration",
+      duration: "2021 - 2023",
+      desc: "Mendoza, Argentina",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Advanced systems and infrastructure management",
+        "Cloud technologies and digital transformation"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Colegio Capitan Daniel Manzotti",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Electronics and Systems Technician",
+      duration: "1991 - 1997",
+      desc: "Mendoza, Argentina - Foundation in telecommunications and infrastructure",
+      descBullets: ["Electronics fundamentals and systems design"]
+    },
+    {
+      schoolName: "Fundacion ANDEN",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Diploma in Negotiation",
+      duration: "2010 - 2011",
+      desc: "Mendoza, Argentina",
+      descBullets: ["Leadership and vendor management skills"]
     }
   ]
 };
@@ -153,16 +157,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Cloud Infrastructure", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Systems & Virtualization",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Network Architecture",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +178,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "IT Manager Senior LATAM",
+      company: "CME - Wakapi",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "2018 - Present",
+      desc: "Lead internal IT and infrastructure operations across LATAM, coordinating teams across Argentina, USA, and Lebanon.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Manage technology operations with focus on systems reliability and security practices",
+        "Own vendor management, hardware/software purchasing and operational decisions",
+        "Drive process improvement across infrastructure and collaboration systems",
+        "Led CME Global Digital Collaboration Initiative with AI-enabled conference rooms"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "IT Project Director",
+      company: "Foptik S.A.",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "2016 - 2018",
+      desc: "Directed IT and telecommunications projects from planning through execution across Argentina.",
+      descBullets: [
+        "Coordinated technical teams and providers on infrastructure initiatives",
+        "Led large-scale connectivity and infrastructure projects including EDUC.AR and Autodromo Villicum",
+        "Managed fiber-optic network deployments and high-availability interconnections"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Head of Technical Support and Management - Cuyo Region",
+      company: "Cencosud S.A.",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "2011 - 2016",
+      desc: "Coordinated regional technical support operations for internal users across the Cuyo region.",
+      descBullets: [
+        "Oversaw server, network, and endpoint support for business continuity",
+        "Supported multi-site technical operations in Argentina and Chile",
+        "Produced operational reports and evaluated information systems"
+      ]
     }
   ]
 };
@@ -205,36 +221,46 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Key Projects",
+  subtitle: "INFRASTRUCTURE & DIGITAL TRANSFORMATION INITIATIVES",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "CME Global Digital Collaboration Initiative",
+      projectDesc: "Led implementation of AI-enabled conference room capabilities with real-time translation, subtitles, meeting summaries, and action-item generation across LATAM regions",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Learn More",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Autodromo Villicum - San Juan",
+      projectDesc: "Directed delivery of fiber-optic network deployment and high-availability interconnections supporting racing facility operations",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "EDUC.AR Network - Parana & Mendoza",
+      projectDesc: "Directed multi-site connectivity project for educational institutions with network design and team coordination across provinces",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/"
         }
       ]
     }
@@ -246,56 +272,58 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "AWS & Microsoft Certifications - Cloud & Infrastructure Expertise",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Technical Essentials",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Foundational knowledge of AWS cloud services and architecture principles.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "AWS Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Architecting on AWS",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Advanced AWS architectural design and best practices for enterprise solutions.",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "AWS Architect Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: ""
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Microsoft MCSA - Windows Server 2016",
+      subtitle: "Advanced Windows Server administration and enterprise infrastructure management.",
       image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Microsoft Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Azure Data Fundamentals (DP-900)",
+      subtitle: "Demonstrated expertise in Azure cloud platform and data services.",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "Azure Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: ""
         }
       ]
     }
@@ -324,7 +352,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +371,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +384,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Let's discuss infrastructure strategies, cloud solutions, or partnership opportunities. I'm available for consultation.",
+  number: "+54 261 4677804",
+  email_address: "carabante@outlook.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
