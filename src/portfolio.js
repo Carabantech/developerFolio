@@ -23,7 +23,7 @@ const greeting = {
   username: "Sebastian Mauricio Carabante",
   title: "Hi, I'm Sebastian",
   subTitle: emoji(
-    "Senior IT Manager with 15+ years driving infrastructure excellence 🚀 | Cloud • Systems • Networks • Security | Leading LATAM operations at CME-Wakapi | AWS & Azure Certified"
+    "Enterprise IT Leader • Cloud Infrastructure Architect • 15+ years transforming LATAM operations 🚀 | AWS • Azure • Security • Zero Trust | Leading innovation at CME-Wakapi"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -261,6 +261,17 @@ const bigProjects = {
         {
           name: "Learn More",
           url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "GO Comunidad - Social Impact Initiative",
+      projectDesc: "Founded and led GO Comunidad initiative to strengthen digital community connections and social inclusion across LATAM regions through technology infrastructure",
+      footerLink: [
+        {
+          name: "Visit Platform",
+          url: "https://gocomunidad.com"
         }
       ]
     }
