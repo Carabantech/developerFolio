@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="32" fill="url(#g)"/>
+  <rect x="42" y="36" width="76" height="58" rx="8" fill="#ffffff" opacity="0.92"/>
+  <path d="M54 52h52M54 66h52M54 80h34" stroke="#1d4ed8" stroke-width="8" stroke-linecap="round"/>
+  <text x="80" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">UB</text>
+  <text x="80" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#dbeafe">TELECOM</text>
+</svg>

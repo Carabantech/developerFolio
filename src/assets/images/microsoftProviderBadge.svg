@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="24" fill="#0f172a"/>
+  <rect x="92" y="48" width="26" height="26" fill="#f25022"/>
+  <rect x="122" y="48" width="26" height="26" fill="#7fba00"/>
+  <rect x="92" y="78" width="26" height="26" fill="#00a4ef"/>
+  <rect x="122" y="78" width="26" height="26" fill="#ffb900"/>
+  <text x="204" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Microsoft</text>
+  <text x="204" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e1">Certification</text>
+</svg>

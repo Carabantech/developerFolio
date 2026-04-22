@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Fundacion Universitas",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/universitasBadge.svg"),
       subHeader: "Technical Degree in New Technology Administration",
       duration: "2021 - 2023",
       desc: "Mendoza, Argentina",
@@ -133,18 +133,18 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Colegio Capitan Daniel Manzotti",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Electronics and Systems Technician",
-      duration: "1991 - 1997",
-      desc: "Mendoza, Argentina - Foundation in telecommunications and infrastructure",
-      descBullets: ["Electronics fundamentals and systems design"]
+      schoolName: "Universidad de Belgrano",
+      logo: require("./assets/images/belgranoBadge.svg"),
+      subHeader: "Lic. in Telecommunications (incomplete)",
+      duration: "1999 - 2003",
+      desc: "Argentina",
+      descBullets: ["Academic foundation in telecommunications and infrastructure"]
     },
     {
       schoolName: "Fundacion ANDEN",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/andenBadge.svg"),
       subHeader: "Diploma in Negotiation",
-      duration: "2010 - 2011",
+      duration: "2010",
       desc: "Mendoza, Argentina",
       descBullets: ["Leadership and vendor management skills"]
     }
@@ -180,7 +180,7 @@ const workExperiences = {
     {
       role: "IT Manager Senior LATAM",
       company: "CME - Wakapi",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: process.env.PUBLIC_URL + "/WAKlogo_3.jpg",
       date: "2018 - Present",
       desc: "Lead internal IT and infrastructure operations across LATAM, coordinating teams across Argentina, USA, and Lebanon.",
       descBullets: [
@@ -193,7 +193,7 @@ const workExperiences = {
     {
       role: "IT Project Director",
       company: "Foptik S.A.",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: process.env.PUBLIC_URL + "/fotik2.png",
       date: "2016 - 2018",
       desc: "Directed IT and telecommunications projects from planning through execution across Argentina.",
       descBullets: [
@@ -205,7 +205,7 @@ const workExperiences = {
     {
       role: "Head of Technical Support and Management - Cuyo Region",
       company: "Cencosud S.A.",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: process.env.PUBLIC_URL + "/Logo-Cencosud.png",
       date: "2011 - 2016",
       desc: "Coordinated regional technical support operations for internal users across the Cuyo region.",
       descBullets: [
@@ -232,7 +232,7 @@ const bigProjects = {
   subtitle: "INFRASTRUCTURE & DIGITAL TRANSFORMATION INITIATIVES",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: process.env.PUBLIC_URL + "/1631312769093.jpg",
       projectName: "CME Global Digital Collaboration Initiative",
       projectDesc: "Led implementation of AI-enabled conference room capabilities with real-time translation, subtitles, meeting summaries, and action-item generation across LATAM regions",
       footerLink: [
@@ -243,7 +243,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: process.env.PUBLIC_URL + "/1607706484431villicum_autodromo.jpg",
       projectName: "Autodromo Villicum - San Juan",
       projectDesc: "Directed delivery of fiber-optic network deployment and high-availability interconnections supporting racing facility operations",
       footerLink: [
@@ -254,7 +254,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: process.env.PUBLIC_URL + "/channels4_profile.jpg",
       projectName: "EDUC.AR Network - Parana & Mendoza",
       projectDesc: "Directed multi-site connectivity project for educational institutions with network design and team coordination across provinces",
       footerLink: [
@@ -265,7 +265,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: process.env.PUBLIC_URL + "/gocom 4.png",
       projectName: "GO Comunidad - Social Impact Initiative",
       projectDesc: "Founded and led GO Comunidad initiative to strengthen digital community connections and social inclusion across LATAM regions through technology infrastructure",
       footerLink: [
@@ -285,56 +285,164 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
   subtitle:
-    "AWS & Microsoft Certifications - Cloud & Infrastructure Expertise",
+    "Professional certifications in AI, cloud, Microsoft infrastructure, Microsoft 365, and networking",
 
   achievementsCards: [
     {
-      title: "AWS Technical Essentials",
+      title: "Inteligencia Artificial Para La Productividad Avanzado",
       subtitle:
-        "Foundational knowledge of AWS cloud services and architecture principles.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "egg | Issued Oct 2025 | Credential ID: 68f25b438abd5e62c21fb794",
+      image: process.env.PUBLIC_URL + "/images.jpg",
+      imageAlt: "egg Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "Inteligencia Artificial Para La Productividad",
+      subtitle:
+        "egg | Issued Oct 2025 | Credential ID: 68dfc73a1ed7c867c708b261 | Skill: Project management",
+      image: process.env.PUBLIC_URL + "/images.jpg",
+      imageAlt: "egg Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified: Azure Fundamentals",
+      subtitle: "Microsoft | Issued Jun 2023",
+      image: process.env.PUBLIC_URL + "/twitter_thumb_201604_image.png",
+      imageAlt: "Microsoft Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "AWS Cloud Practitioner",
+      subtitle: "IT College | Issued Aug 2022 | Credential ID: 48f9947f40b0",
+      image:
+        process.env.PUBLIC_URL +
+        "/AWS-Certified-Cloud-Practitioner_badge.png",
+      imageAlt: "AWS Cloud Practitioner Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "MS-900 Microsoft 365",
+      subtitle: "IT College | Issued Dec 2020 | Credential ID: 26410440",
+      image: process.env.PUBLIC_URL + "/ms-900-420x420-1.webp",
+      imageAlt: "IT College Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "AWS Technical Essentials",
+      subtitle: "IT College | Issued Jul 2020",
+      image:
+        process.env.PUBLIC_URL +
+        "/AWS-Certified-Cloud-Practitioner_badge.png",
       imageAlt: "AWS Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: ""
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
         }
       ]
     },
     {
       title: "Architecting on AWS",
-      subtitle:
-        "Advanced AWS architectural design and best practices for enterprise solutions.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      subtitle: "IT College | Issued Oct 2020 | Credential ID: 24693218",
+      image: process.env.PUBLIC_URL + "/AWS_01-1761731215.png",
       imageAlt: "AWS Architect Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: ""
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
         }
       ]
     },
     {
-      title: "Microsoft MCSA - Windows Server 2016",
-      subtitle: "Advanced Windows Server administration and enterprise infrastructure management.",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Microsoft MCSA- 20740 Windows Server 2016",
+      subtitle: "IT College | Issued Jun 2018",
+      image:
+        process.env.PUBLIC_URL +
+        "/twitter_thumb_201604_MCSA-Windows-Server-2016-2018.png",
       imageAlt: "Microsoft Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: ""
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
         }
       ]
     },
     {
-      title: "Azure Data Fundamentals (DP-900)",
-      subtitle: "Demonstrated expertise in Azure cloud platform and data services.",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "MS-DP900 Microsoft Azure Data Fundamental",
+      subtitle: "IT College | Issued Oct 2020 | Credential ID: 24509992",
+      image: process.env.PUBLIC_URL + "/azure-data-fundamentals-600x600.png",
       imageAlt: "Azure Logo",
       footerLink: [
         {
           name: "View Certification",
-          url: ""
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "MS-20741 Networking with Windows Server 2016",
+      subtitle: "IT College | Issued Nov 2019",
+      image:
+        process.env.PUBLIC_URL +
+        "/twitter_thumb_201604_20_DDLS_MS_20741.png",
+      imageAlt: "IT College Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "MS-20742 Identity with Windows Server 2016",
+      subtitle: "IT College | Issued Oct 2019 | Credential ID: 13922816",
+      image:
+        process.env.PUBLIC_URL +
+        "/twitter_thumb_201604_20_DDLS_MS_20742.png",
+      imageAlt: "IT College Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
+        }
+      ]
+    },
+    {
+      title: "Cisco CCNA",
+      subtitle: "UTN - Facultad Regional Mendoza | Issued Sep 2004",
+      image:
+        process.env.PUBLIC_URL +
+        "/430-4308169_14-cisco-logo-icon-images-ccna-certification-circle.png",
+      imageAlt: "Cisco Logo",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.linkedin.com/in/sebastian-mauricio-c-a6123635/details/certifications/"
         }
       ]
     }
@@ -434,3 +542,4 @@ export {
   twitterDetails,
   isHireable
 };
+

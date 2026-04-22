@@ -9,6 +9,9 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const whatsappNumber = contactInfo.number
+    ? contactInfo.number.replace(/\D/g, "")
+    : "";
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -33,7 +36,9 @@ export default function Contact() {
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"https://wa.me/" + whatsappNumber}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {contactInfo.number}
                   </a>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="24" fill="url(#g)"/>
+  <text x="160" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">AWS</text>
+  <path d="M110 104c18 10 82 10 100 0" fill="none" stroke="#fde68a" stroke-width="8" stroke-linecap="round"/>
+  <text x="160" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#fffbeb">TECHNICAL ESSENTIALS</text>
+</svg>

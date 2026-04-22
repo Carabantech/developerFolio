@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="32" fill="url(#g)"/>
+  <circle cx="80" cy="80" r="44" fill="none" stroke="#ffedd5" stroke-width="10"/>
+  <path d="M104 56a34 34 0 1 0 0 48" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <text x="80" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">CENCOSUD</text>
+</svg>
