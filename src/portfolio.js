@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Fundacion Universitas",
-      logo: require("./assets/images/universitasBadge.svg"),
+      logo: "/fundaci_n_universitas_logo.jpg",
       subHeader: "Technical Degree in New Technology Administration",
       duration: "2021 - 2023",
       desc: "Mendoza, Argentina",
@@ -134,15 +134,15 @@ const educationInfo = {
     },
     {
       schoolName: "Universidad de Belgrano",
-      logo: require("./assets/images/belgranoBadge.svg"),
+      logo: "/iso2022.jpg",
       subHeader: "Lic. in Telecommunications (incomplete)",
       duration: "1999 - 2003",
       desc: "Argentina",
       descBullets: ["Academic foundation in telecommunications and infrastructure"]
     },
     {
-      schoolName: "Fundacion ANDEN",
-      logo: require("./assets/images/andenBadge.svg"),
+      schoolName: "Fundacion ADEN",
+      logo: "/ADEN_PRINT_RGB5678.jpg",
       subHeader: "Diploma in Negotiation",
       duration: "2010",
       desc: "Mendoza, Argentina",
