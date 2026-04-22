@@ -243,7 +243,7 @@ const bigProjects = {
       ]
     },
     {
-      image: process.env.PUBLIC_URL + "/1607706484431villicum_autodromo.jpg",
+      image: process.env.PUBLIC_URL + "/autodromo-villicum-san-juan.jpg",
       projectName: "Autodromo Villicum - San Juan",
       projectDesc: "Directed delivery of fiber-optic network deployment and high-availability interconnections supporting racing facility operations",
       footerLink: [
@@ -254,7 +254,7 @@ const bigProjects = {
       ]
     },
     {
-      image: process.env.PUBLIC_URL + "/channels4_profile.jpg",
+      image: process.env.PUBLIC_URL + "/educar-network-parana-mendoza.jpg",
       projectName: "EDUC.AR Network - Parana & Mendoza",
       projectDesc: "Directed multi-site connectivity project for educational institutions with network design and team coordination across provinces",
       footerLink: [
