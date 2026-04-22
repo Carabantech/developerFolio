@@ -135,7 +135,7 @@ const educationInfo = {
     {
       schoolName: "Universidad de Belgrano",
       logo: "/iso2022.jpg",
-      subHeader: "Lic. in Telecommunications (incomplete)",
+      subHeader: "Lic. in Telecommunications *",
       duration: "1999 - 2003",
       desc: "Argentina",
       descBullets: ["Academic foundation in telecommunications and infrastructure"]
@@ -437,7 +437,7 @@ const achievementSection = {
       subtitle: "UTN - Facultad Regional Mendoza | Issued Sep 2004",
       image:
         process.env.PUBLIC_URL +
-        "/430-4308169_14-cisco-logo-icon-images-ccna-certification-circle.png",
+        "/Cisco-CCNA-200-301-with-Live-Lab-Practice-Test-and-Study-Guide.webp",
       imageAlt: "Cisco Logo",
       footerLink: [
         {
@@ -542,4 +542,3 @@ export {
   twitterDetails,
   isHireable
 };
-
