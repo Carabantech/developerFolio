@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import ScrollToTopButton from "../containers/topbutton/Top";
 import SplashScreen from "../containers/splashScreen/SplashScreen";
 import {StyleProvider} from "../contexts/StyleContext";
+import {LanguageProvider} from "../contexts/LanguageContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import {splashScreen} from "../portfolio";
 
@@ -35,18 +36,20 @@ export default function ClientLayout({children}) {
 
   return (
     <div className={isDark ? "dark-mode" : ""}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
-        {isShowingSplashAnimation && splashScreen.enabled ? (
-          <SplashScreen />
-        ) : (
-          <>
-            <Header />
-            {children}
-            <Footer />
-            <ScrollToTopButton />
-          </>
-        )}
-      </StyleProvider>
+      <LanguageProvider>
+        <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+          {isShowingSplashAnimation && splashScreen.enabled ? (
+            <SplashScreen />
+          ) : (
+            <>
+              <Header />
+              {children}
+              <Footer />
+              <ScrollToTopButton />
+            </>
+          )}
+        </StyleProvider>
+      </LanguageProvider>
     </div>
   );
 }

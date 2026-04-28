@@ -6,9 +6,11 @@ import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import {useTranslation} from "../../contexts/LanguageContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const {messages} = useTranslation();
   const whatsappNumber = contactInfo.number
     ? contactInfo.number.replace(/\D/g, "")
     : "";
@@ -17,7 +19,7 @@ export default function Contact() {
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">{messages.contact.title}</h1>
             <p
               className={
                 isDark
@@ -25,7 +27,7 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle}
+              {messages.contact.subtitle}
             </p>
             <div
               className={

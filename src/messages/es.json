@@ -1,0 +1,167 @@
+{
+  "greeting": {
+    "username": "Sebastian Mauricio Carabante",
+    "title": "Hola, soy Sebastian",
+    "subTitle": "Líder de TI Empresarial • Arquitecto de Infraestructura Cloud • 15+ años transformando operaciones en LATAM 🚀 | AWS • Azure • Seguridad • Zero Trust | Liderando innovación en CME-Wakapi"
+  },
+  "skills": {
+    "title": "Infraestructura y Operaciones",
+    "subTitle": "LIDERAZGO EN TI EMPRESARIAL Y ESPECIALISTA EN ARQUITECTURA CLOUD",
+    "skill1": "⚡ Lidero operaciones de TI, planificación de infraestructura y administración de sistemas en equipos internacionales distribuidos",
+    "skill2": "⚡ Diseño y gestiono entornos cloud (AWS, Azure) con enfoque en seguridad, confiabilidad y optimización de costos",
+    "skill3": "⚡ Impulso la transformación digital mediante gestión de proveedores, mejora de procesos y adopción de tecnologías emergentes"
+  },
+  "education": {
+    "school1": {
+      "schoolName": "Fundación Universitas",
+      "subHeader": "Título Técnico en Administración de Nuevas Tecnologías",
+      "duration": "2021 - 2023",
+      "desc": "Mendoza, Argentina",
+      "bullet1": "Gestión avanzada de sistemas e infraestructura",
+      "bullet2": "Tecnologías cloud y transformación digital"
+    },
+    "school2": {
+      "schoolName": "Universidad de Belgrano",
+      "subHeader": "Lic. en Telecomunicaciones *",
+      "duration": "1999 - 2003",
+      "desc": "Argentina",
+      "bullet1": "Fundamentos académicos en telecomunicaciones e infraestructura"
+    },
+    "school3": {
+      "schoolName": "Fundación ADEN",
+      "subHeader": "Diploma en Negociación",
+      "duration": "2010",
+      "desc": "Mendoza, Argentina",
+      "bullet1": "Habilidades de liderazgo y gestión de proveedores"
+    }
+  },
+  "techStack": {
+    "stack1": "Infraestructura Cloud",
+    "stack2": "Sistemas y Virtualización",
+    "stack3": "Arquitectura de Redes"
+  },
+  "workExperience": {
+    "job1": {
+      "role": "IT Manager Senior LATAM",
+      "company": "CME - Wakapi",
+      "date": "2018 - Presente",
+      "desc": "Lidero operaciones internas de TI e infraestructura en LATAM, coordinando equipos en Argentina, EE.UU. y Líbano.",
+      "bullet1": "Gestiono operaciones tecnológicas con enfoque en confiabilidad de sistemas y prácticas de seguridad",
+      "bullet2": "Responsable de gestión de proveedores, compras de hardware/software y decisiones operativas",
+      "bullet3": "Impulso mejoras de procesos en infraestructura y sistemas de colaboración",
+      "bullet4": "Lideré la Iniciativa de Colaboración Digital Global de CME con salas de conferencia habilitadas con IA"
+    },
+    "job2": {
+      "role": "Director de Proyectos TI",
+      "company": "Foptik S.A.",
+      "date": "2016 - 2018",
+      "desc": "Dirigí proyectos de TI y telecomunicaciones desde la planificación hasta la ejecución en toda Argentina.",
+      "bullet1": "Coordiné equipos técnicos y proveedores en iniciativas de infraestructura",
+      "bullet2": "Lideré proyectos de conectividad e infraestructura a gran escala incluyendo EDUC.AR y Autódromo Villicum",
+      "bullet3": "Gestioné implementaciones de redes de fibra óptica e interconexiones de alta disponibilidad"
+    },
+    "job3": {
+      "role": "Jefe de Soporte Técnico y Gestión - Región Cuyo",
+      "company": "Cencosud S.A.",
+      "date": "2011 - 2016",
+      "desc": "Coordiné operaciones regionales de soporte técnico para usuarios internos en la región de Cuyo.",
+      "bullet1": "Supervisé soporte de servidores, redes y endpoints para continuidad del negocio",
+      "bullet2": "Apoyé operaciones técnicas multi-sitio en Argentina y Chile",
+      "bullet3": "Produje informes operativos y evalué sistemas de información"
+    }
+  },
+  "projects": {
+    "title": "Proyectos Clave",
+    "subtitle": "INICIATIVAS DE INFRAESTRUCTURA Y TRANSFORMACIÓN DIGITAL",
+    "project1": {
+      "name": "Iniciativa de Colaboración Digital Global CME",
+      "desc": "Lideré la implementación de capacidades de salas de conferencia habilitadas con IA con traducción en tiempo real, subtítulos, resúmenes de reuniones y generación de elementos de acción en regiones LATAM",
+      "linkText": "Más Información"
+    },
+    "project2": {
+      "name": "Autódromo Villicum - San Juan",
+      "desc": "Dirigí la entrega del despliegue de red de fibra óptica e interconexiones de alta disponibilidad que respaldan las operaciones de las instalaciones de carreras",
+      "linkText": "Más Información"
+    },
+    "project3": {
+      "name": "Red EDUC.AR - Paraná y Mendoza",
+      "desc": "Dirigí proyecto de conectividad multi-sitio para instituciones educativas con diseño de red y coordinación de equipos entre provincias",
+      "linkText": "Más Información"
+    },
+    "project4": {
+      "name": "GO Comunidad - Iniciativa de Impacto Social",
+      "desc": "Fundé y lideré la iniciativa GO Comunidad para fortalecer las conexiones comunitarias digitales y la inclusión social en regiones LATAM a través de infraestructura tecnológica",
+      "linkText": "Visitar Plataforma"
+    }
+  },
+  "achievements": {
+    "title": "Certificaciones 🏆",
+    "subtitle": "Certificaciones profesionales en IA, cloud, infraestructura Microsoft, Microsoft 365 y redes",
+    "cert1": {
+      "title": "Inteligencia Artificial Para La Productividad Avanzado",
+      "subtitle": "egg | Emitido Oct 2025 | ID Credencial: 68f25b438abd5e62c21fb794",
+      "linkText": "Ver Certificación"
+    },
+    "cert2": {
+      "title": "Inteligencia Artificial Para La Productividad",
+      "subtitle": "egg | Emitido Oct 2025 | ID Credencial: 68dfc73a1ed7c867c708b261 | Habilidad: Gestión de proyectos",
+      "linkText": "Ver Certificación"
+    },
+    "cert3": {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "subtitle": "Microsoft | Emitido Jun 2023",
+      "linkText": "Ver Certificación"
+    },
+    "cert4": {
+      "title": "AWS Cloud Practitioner",
+      "subtitle": "IT College | Emitido Ago 2022 | ID Credencial: 48f9947f40b0",
+      "linkText": "Ver Certificación"
+    },
+    "cert5": {
+      "title": "MS-900 Microsoft 365",
+      "subtitle": "IT College | Emitido Dic 2020 | ID Credencial: 26410440",
+      "linkText": "Ver Certificación"
+    },
+    "cert6": {
+      "title": "AWS Technical Essentials",
+      "subtitle": "IT College | Emitido Jul 2020",
+      "linkText": "Ver Certificación"
+    },
+    "cert7": {
+      "title": "Architecting on AWS",
+      "subtitle": "IT College | Emitido Oct 2020 | ID Credencial: 24693218",
+      "linkText": "Ver Certificación"
+    },
+    "cert8": {
+      "title": "Microsoft MCSA- 20740 Windows Server 2016",
+      "subtitle": "IT College | Emitido Jun 2018",
+      "linkText": "Ver Certificación"
+    },
+    "cert9": {
+      "title": "MS-DP900 Microsoft Azure Data Fundamental",
+      "subtitle": "IT College | Emitido Oct 2020 | ID Credencial: 24509992",
+      "linkText": "Ver Certificación"
+    },
+    "cert10": {
+      "title": "MS-20741 Networking with Windows Server 2016",
+      "subtitle": "IT College | Emitido Nov 2019",
+      "linkText": "Ver Certificación"
+    },
+    "cert11": {
+      "title": "MS-20742 Identity with Windows Server 2016",
+      "subtitle": "IT College | Emitido Oct 2019 | ID Credencial: 13922816",
+      "linkText": "Ver Certificación"
+    },
+    "cert12": {
+      "title": "Cisco CCNA",
+      "subtitle": "UTN - Facultad Regional Mendoza | Emitido Sep 2004",
+      "linkText": "Ver Certificación"
+    }
+  },
+  "contact": {
+    "title": "Contáctame ☎️",
+    "subtitle": "Hablemos sobre estrategias de infraestructura, soluciones cloud u oportunidades de colaboración. Estoy disponible para consultas.",
+    "number": "+54 261 4677804",
+    "email": "carabante@outlook.com"
+  }
+}

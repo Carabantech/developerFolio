@@ -3,6 +3,7 @@ import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {useTranslation} from "../../contexts/LanguageContext";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -14,6 +15,8 @@ export default function StartupProject() {
   }
 
   const {isDark} = useContext(StyleContext);
+  const {messages} = useTranslation();
+  
   if (!bigProjects.display) {
     return null;
   }
@@ -21,7 +24,7 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{messages.projects.title}</h1>
           <p
             className={
               isDark
@@ -29,11 +32,14 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {messages.projects.subtitle}
           </p>
 
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
+              const projectKey = `project${i + 1}`;
+              const translatedProject = messages.projects[projectKey];
+              
               return (
                 <div
                   key={i}
@@ -47,7 +53,7 @@ export default function StartupProject() {
                     <div className="project-image">
                       <img
                         src={project.image}
-                        alt={project.projectName}
+                        alt={translatedProject ? translatedProject.name : project.projectName}
                         className="card-image"
                       ></img>
                     </div>
@@ -56,14 +62,14 @@ export default function StartupProject() {
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
-                      {project.projectName}
+                      {translatedProject ? translatedProject.name : project.projectName}
                     </h5>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
-                      {project.projectDesc}
+                      {translatedProject ? translatedProject.desc : project.projectDesc}
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
@@ -76,7 +82,7 @@ export default function StartupProject() {
                               }
                               onClick={() => openUrlInNewTab(link.url)}
                             >
-                              {link.name}
+                              {translatedProject ? translatedProject.linkText : link.name}
                             </span>
                           );
                         })}

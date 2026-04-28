@@ -4,8 +4,12 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {useTranslation} from "../../contexts/LanguageContext";
+
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
+  const {messages} = useTranslation();
+  
   if (!achievementSection.display) {
     return null;
   }
@@ -21,7 +25,7 @@ export default function Achievement() {
                   : "heading achievement-heading"
               }
             >
-              {achievementSection.title}
+              {messages.achievements.title}
             </h1>
             <p
               className={
@@ -30,21 +34,27 @@ export default function Achievement() {
                   : "subTitle achievement-subtitle"
               }
             >
-              {achievementSection.subtitle}
+              {messages.achievements.subtitle}
             </p>
           </div>
           <div className="achievement-cards-div">
             {achievementSection.achievementsCards.map((card, i) => {
+              const certKey = `cert${i + 1}`;
+              const translatedCert = messages.achievements[certKey];
+              
               return (
                 <AchievementCard
                   key={i}
                   isDark={isDark}
                   cardInfo={{
-                    title: card.title,
-                    description: card.subtitle,
+                    title: translatedCert ? translatedCert.title : card.title,
+                    description: translatedCert ? translatedCert.subtitle : card.subtitle,
                     image: card.image,
                     imageAlt: card.imageAlt,
-                    footer: card.footerLink
+                    footer: card.footerLink.map(link => ({
+                      ...link,
+                      name: translatedCert ? translatedCert.linkText : link.name
+                    }))
                   }}
                 />
               );

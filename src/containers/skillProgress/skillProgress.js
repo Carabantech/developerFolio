@@ -4,21 +4,28 @@ import {illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import {useTranslation} from "../../contexts/LanguageContext";
 
 export default function StackProgress() {
+  const {messages, locale} = useTranslation();
+  
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">Proficiency</h1>
+            <h1 className="skills-heading">
+              {locale === "es" ? "Competencia" : "Proficiency"}
+            </h1>
             {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage
               };
+              const translatedStack = messages.techStack[`stack${i + 1}`];
+              
               return (
                 <div key={i} className="skill">
-                  <p>{exp.Stack}</p>
+                  <p>{translatedStack || exp.Stack}</p>
                   <div className="meter">
                     <span style={progressStyle}></span>
                   </div>

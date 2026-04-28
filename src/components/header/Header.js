@@ -2,7 +2,9 @@ import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import LanguageToggle from "../LanguageToggle/LanguageToggle";
 import StyleContext from "../../contexts/StyleContext";
+import {useTranslation} from "../../contexts/LanguageContext";
 import {
   greeting,
   workExperiences,
@@ -15,6 +17,8 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const {locale} = useTranslation();
+  
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -41,12 +45,12 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">{locale === "es" ? "Habilidades" : "Skills"}</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">{locale === "es" ? "Experiencia" : "Work Experiences"}</a>
             </li>
           )}
           {viewOpenSource && (
@@ -56,7 +60,7 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">{locale === "es" ? "Certificaciones" : "Achievements"}</a>
             </li>
           )}
           {viewBlog && (
@@ -70,12 +74,18 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">{locale === "es" ? "Contáctame" : "Contact Me"}</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
               <ToggleSwitch />
+            </a>
+          </li>
+          <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a>
+              <LanguageToggle />
             </a>
           </li>
         </ul>

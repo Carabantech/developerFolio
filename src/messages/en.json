@@ -1,0 +1,167 @@
+{
+  "greeting": {
+    "username": "Sebastian Mauricio Carabante",
+    "title": "Hi, I'm Sebastian",
+    "subTitle": "Enterprise IT Leader • Cloud Infrastructure Architect • 15+ years transforming LATAM operations 🚀 | AWS • Azure • Security • Zero Trust | Leading innovation at CME-Wakapi"
+  },
+  "skills": {
+    "title": "Infrastructure & Operations",
+    "subTitle": "ENTERPRISE IT LEADERSHIP & CLOUD ARCHITECTURE SPECIALIST",
+    "skill1": "⚡ Lead IT operations, infrastructure planning & systems administration across distributed international teams",
+    "skill2": "⚡ Design & manage cloud environments (AWS, Azure) with focus on security, reliability & cost optimization",
+    "skill3": "⚡ Drive digital transformation through vendor management, process improvement & emerging technology adoption"
+  },
+  "education": {
+    "school1": {
+      "schoolName": "Fundacion Universitas",
+      "subHeader": "Technical Degree in New Technology Administration",
+      "duration": "2021 - 2023",
+      "desc": "Mendoza, Argentina",
+      "bullet1": "Advanced systems and infrastructure management",
+      "bullet2": "Cloud technologies and digital transformation"
+    },
+    "school2": {
+      "schoolName": "Universidad de Belgrano",
+      "subHeader": "Lic. in Telecommunications *",
+      "duration": "1999 - 2003",
+      "desc": "Argentina",
+      "bullet1": "Academic foundation in telecommunications and infrastructure"
+    },
+    "school3": {
+      "schoolName": "Fundacion ADEN",
+      "subHeader": "Diploma in Negotiation",
+      "duration": "2010",
+      "desc": "Mendoza, Argentina",
+      "bullet1": "Leadership and vendor management skills"
+    }
+  },
+  "techStack": {
+    "stack1": "Cloud Infrastructure",
+    "stack2": "Systems & Virtualization",
+    "stack3": "Network Architecture"
+  },
+  "workExperience": {
+    "job1": {
+      "role": "IT Manager Senior LATAM",
+      "company": "CME - Wakapi",
+      "date": "2018 - Present",
+      "desc": "Lead internal IT and infrastructure operations across LATAM, coordinating teams across Argentina, USA, and Lebanon.",
+      "bullet1": "Manage technology operations with focus on systems reliability and security practices",
+      "bullet2": "Own vendor management, hardware/software purchasing and operational decisions",
+      "bullet3": "Drive process improvement across infrastructure and collaboration systems",
+      "bullet4": "Led CME Global Digital Collaboration Initiative with AI-enabled conference rooms"
+    },
+    "job2": {
+      "role": "IT Project Director",
+      "company": "Foptik S.A.",
+      "date": "2016 - 2018",
+      "desc": "Directed IT and telecommunications projects from planning through execution across Argentina.",
+      "bullet1": "Coordinated technical teams and providers on infrastructure initiatives",
+      "bullet2": "Led large-scale connectivity and infrastructure projects including EDUC.AR and Autodromo Villicum",
+      "bullet3": "Managed fiber-optic network deployments and high-availability interconnections"
+    },
+    "job3": {
+      "role": "Head of Technical Support and Management - Cuyo Region",
+      "company": "Cencosud S.A.",
+      "date": "2011 - 2016",
+      "desc": "Coordinated regional technical support operations for internal users across the Cuyo region.",
+      "bullet1": "Oversaw server, network, and endpoint support for business continuity",
+      "bullet2": "Supported multi-site technical operations in Argentina and Chile",
+      "bullet3": "Produced operational reports and evaluated information systems"
+    }
+  },
+  "projects": {
+    "title": "Key Projects",
+    "subtitle": "INFRASTRUCTURE & DIGITAL TRANSFORMATION INITIATIVES",
+    "project1": {
+      "name": "CME Global Digital Collaboration Initiative",
+      "desc": "Led implementation of AI-enabled conference room capabilities with real-time translation, subtitles, meeting summaries, and action-item generation across LATAM regions",
+      "linkText": "Learn More"
+    },
+    "project2": {
+      "name": "Autodromo Villicum - San Juan",
+      "desc": "Directed delivery of fiber-optic network deployment and high-availability interconnections supporting racing facility operations",
+      "linkText": "Learn More"
+    },
+    "project3": {
+      "name": "EDUC.AR Network - Parana & Mendoza",
+      "desc": "Directed multi-site connectivity project for educational institutions with network design and team coordination across provinces",
+      "linkText": "Learn More"
+    },
+    "project4": {
+      "name": "GO Comunidad - Social Impact Initiative",
+      "desc": "Founded and led GO Comunidad initiative to strengthen digital community connections and social inclusion across LATAM regions through technology infrastructure",
+      "linkText": "Visit Platform"
+    }
+  },
+  "achievements": {
+    "title": "Certifications 🏆",
+    "subtitle": "Professional certifications in AI, cloud, Microsoft infrastructure, Microsoft 365, and networking",
+    "cert1": {
+      "title": "Inteligencia Artificial Para La Productividad Avanzado",
+      "subtitle": "egg | Issued Oct 2025 | Credential ID: 68f25b438abd5e62c21fb794",
+      "linkText": "View Certification"
+    },
+    "cert2": {
+      "title": "Inteligencia Artificial Para La Productividad",
+      "subtitle": "egg | Issued Oct 2025 | Credential ID: 68dfc73a1ed7c867c708b261 | Skill: Project management",
+      "linkText": "View Certification"
+    },
+    "cert3": {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "subtitle": "Microsoft | Issued Jun 2023",
+      "linkText": "View Certification"
+    },
+    "cert4": {
+      "title": "AWS Cloud Practitioner",
+      "subtitle": "IT College | Issued Aug 2022 | Credential ID: 48f9947f40b0",
+      "linkText": "View Certification"
+    },
+    "cert5": {
+      "title": "MS-900 Microsoft 365",
+      "subtitle": "IT College | Issued Dec 2020 | Credential ID: 26410440",
+      "linkText": "View Certification"
+    },
+    "cert6": {
+      "title": "AWS Technical Essentials",
+      "subtitle": "IT College | Issued Jul 2020",
+      "linkText": "View Certification"
+    },
+    "cert7": {
+      "title": "Architecting on AWS",
+      "subtitle": "IT College | Issued Oct 2020 | Credential ID: 24693218",
+      "linkText": "View Certification"
+    },
+    "cert8": {
+      "title": "Microsoft MCSA- 20740 Windows Server 2016",
+      "subtitle": "IT College | Issued Jun 2018",
+      "linkText": "View Certification"
+    },
+    "cert9": {
+      "title": "MS-DP900 Microsoft Azure Data Fundamental",
+      "subtitle": "IT College | Issued Oct 2020 | Credential ID: 24509992",
+      "linkText": "View Certification"
+    },
+    "cert10": {
+      "title": "MS-20741 Networking with Windows Server 2016",
+      "subtitle": "IT College | Issued Nov 2019",
+      "linkText": "View Certification"
+    },
+    "cert11": {
+      "title": "MS-20742 Identity with Windows Server 2016",
+      "subtitle": "IT College | Issued Oct 2019 | Credential ID: 13922816",
+      "linkText": "View Certification"
+    },
+    "cert12": {
+      "title": "Cisco CCNA",
+      "subtitle": "UTN - Facultad Regional Mendoza | Issued Sep 2004",
+      "linkText": "View Certification"
+    }
+  },
+  "contact": {
+    "title": "Contact Me ☎️",
+    "subtitle": "Let's discuss infrastructure strategies, cloud solutions, or partnership opportunities. I'm available for consultation.",
+    "number": "+54 261 4677804",
+    "email": "carabante@outlook.com"
+  }
+}

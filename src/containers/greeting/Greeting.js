@@ -9,9 +9,12 @@ import Button from "../../components/button/Button";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import {useTranslation} from "../../contexts/LanguageContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const {messages, locale} = useTranslation();
+  
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -25,7 +28,7 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
+                {messages.greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
@@ -35,14 +38,17 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {emoji(messages.greeting.subTitle)}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button 
+                  text={locale === "es" ? "Contáctame" : "Contact me"} 
+                  href="#contact" 
+                />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
+                    text={locale === "es" ? "Ver mi CV" : "See my resume"}
                     newTab={true}
                     href={greeting.resumeLink}
                   />
