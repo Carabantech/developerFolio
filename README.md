@@ -466,3 +466,9 @@ If you have any questions or need help:
 
 Give a ⭐️ if this project helped you!
 
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+---
