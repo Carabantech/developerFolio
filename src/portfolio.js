@@ -238,7 +238,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "/autodromo-villicum-san-juan - copia.jpg",
+      image: "/autodromo-villicum-san-juan - copia2.jpg",
       projectName: "Autodromo Villicum Infrastructure Project",
       projectDesc: "Directed $1.2M critical infrastructure project, managing 5 vendor partners and 20+ team members to deliver high-availability network on-time and 15% under budget",
       footerLink: [
@@ -249,7 +249,7 @@ const bigProjects = {
       ]
     },
     {
-      image: "/educar-network-parana-mendoza - copia.jpg",
+      image: "/educar-network-parana-mendoza - copia2.jpg",
       projectName: "EDUC.AR Educational Network Program",
       projectDesc: "Led $800K multi-province connectivity program, coordinating stakeholders across 50+ educational institutions and managing project lifecycle from planning to successful implementation",
       footerLink: [
