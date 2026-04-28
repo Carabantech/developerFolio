@@ -7,16 +7,16 @@ import esMessages from "../messages/es.json";
 const LanguageContext = createContext();
 
 export function LanguageProvider({children}) {
-  const [locale, setLocale] = useState("en");
-  const [messages, setMessages] = useState(enMessages);
+  const [locale, setLocale] = useState("es");
+  const [messages, setMessages] = useState(esMessages);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Load saved locale from localStorage, default to English
+    // Load saved locale from localStorage, default to Spanish
     if (typeof window !== "undefined") {
       const savedLocale = localStorage.getItem("locale");
-      // Only use saved locale if it exists, otherwise default to English
-      const currentLocale = savedLocale || "en";
+      // Only use saved locale if it exists, otherwise default to Spanish
+      const currentLocale = savedLocale || "es";
       setLocale(currentLocale);
       setMessages(currentLocale === "es" ? esMessages : enMessages);
       setMounted(true);

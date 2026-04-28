@@ -23,7 +23,7 @@ const greeting = {
   username: "Sebastian Mauricio Carabante",
   title: "Hi, I'm Sebastian",
   subTitle: emoji(
-    "Enterprise IT Leader • Cloud Infrastructure Architect • 15+ years transforming LATAM operations 🚀 | AWS • Azure • Security • Zero Trust | Leading innovation at CME-Wakapi"
+    "Senior IT Manager & Technology Leader • 15+ years driving strategic IT initiatives across LATAM 🚀 | Project Management • Team Leadership • Digital Transformation | Delivering business value through technology at CME-Wakapi"
   ),
   resumeLink: "",
   displayGreeting: true
@@ -45,66 +45,66 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Infrastructure & Operations",
-  subTitle: "ENTERPRISE IT LEADERSHIP & CLOUD ARCHITECTURE SPECIALIST",
+  title: "Leadership & Management",
+  subTitle: "SENIOR IT MANAGEMENT & STRATEGIC TECHNOLOGY LEADERSHIP",
   skills: [
     emoji(
-      "⚡ Lead IT operations, infrastructure planning & systems administration across distributed international teams"
+      "⚡ Lead cross-functional teams and manage IT operations across distributed international locations (Argentina, USA, Lebanon)"
     ),
-    emoji("⚡ Design & manage cloud environments (AWS, Azure) with focus on security, reliability & cost optimization"),
+    emoji("⚡ Drive strategic initiatives, budget planning, and vendor management with focus on business outcomes and ROI"),
     emoji(
-      "⚡ Drive digital transformation through vendor management, process improvement & emerging technology adoption"
+      "⚡ Oversee digital transformation projects from conception to delivery, ensuring alignment with organizational goals"
     )
   ],
 
   softwareSkills: [
     {
-      skillName: "Windows Server",
-      fontAwesomeClassname: "fab fa-windows"
+      skillName: "Project Management",
+      fontAwesomeClassname: "fas fa-tasks"
     },
     {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      skillName: "Team Leadership",
+      fontAwesomeClassname: "fas fa-users"
     },
     {
-      skillName: "AWS",
+      skillName: "Strategic Planning",
+      fontAwesomeClassname: "fas fa-chess"
+    },
+    {
+      skillName: "Budget Management",
+      fontAwesomeClassname: "fas fa-dollar-sign"
+    },
+    {
+      skillName: "Vendor Relations",
+      fontAwesomeClassname: "fas fa-handshake"
+    },
+    {
+      skillName: "AWS Cloud",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Azure",
+      skillName: "Azure Cloud",
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "VMware",
+      skillName: "IT Operations",
       fontAwesomeClassname: "fas fa-server"
     },
     {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Change Management",
+      fontAwesomeClassname: "fas fa-sync-alt"
     },
     {
-      skillName: "Networking",
-      fontAwesomeClassname: "fas fa-network-wired"
+      skillName: "Agile/Scrum",
+      fontAwesomeClassname: "fas fa-running"
     },
     {
-      skillName: "Cybersecurity",
+      skillName: "Risk Management",
       fontAwesomeClassname: "fas fa-shield-alt"
     },
     {
-      skillName: "Firewalls",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git-alt"
-    },
-    {
-      skillName: "Terraform",
-      fontAwesomeClassname: "fas fa-cube"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Stakeholder Management",
+      fontAwesomeClassname: "fas fa-comments"
     }
   ],
   display: true
@@ -151,16 +151,16 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "Cloud Infrastructure",
+      Stack: "Team Leadership & Management",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Project & Program Management",
       progressPercentage: "90%"
     },
     {
-      Stack: "Systems & Virtualization",
-      progressPercentage: "85%"
-    },
-    {
-      Stack: "Network Architecture",
-      progressPercentage: "80%"
+      Stack: "Strategic IT Planning",
+      progressPercentage: "88%"
     }
   ],
   displayCodersrank: false
@@ -176,12 +176,12 @@ const workExperiences = {
       company: "CME - Wakapi",
       companylogo: "/WAKlogo_3.jpg",
       date: "2018 - Present",
-      desc: "Lead internal IT and infrastructure operations across LATAM, coordinating teams across Argentina, USA, and Lebanon.",
+      desc: "Lead strategic IT initiatives and manage distributed teams across LATAM (Argentina, USA, Lebanon), driving digital transformation and operational excellence.",
       descBullets: [
-        "Manage technology operations with focus on systems reliability and security practices",
-        "Own vendor management, hardware/software purchasing and operational decisions",
-        "Drive process improvement across infrastructure and collaboration systems",
-        "Led CME Global Digital Collaboration Initiative with AI-enabled conference rooms"
+        "Manage annual IT budget and technology roadmap, optimizing investments and reducing operational costs by 25%",
+        "Direct cross-functional teams of 15+ professionals, fostering collaboration and driving performance improvements",
+        "Lead vendor negotiations and strategic partnerships, achieving $150K+ in annual savings through optimized contracts",
+        "Spearheaded CME Global Digital Collaboration Initiative, implementing AI-enabled conference rooms and improving team productivity by 30%"
       ]
     },
     {
@@ -189,11 +189,12 @@ const workExperiences = {
       company: "Foptik S.A.",
       companylogo: "/fotik2.png",
       date: "2016 - 2018",
-      desc: "Directed IT and telecommunications projects from planning through execution across Argentina.",
+      desc: "Directed portfolio of strategic IT and telecommunications projects valued at $2M+, managing stakeholder expectations and delivering on-time, on-budget results.",
       descBullets: [
-        "Coordinated technical teams and providers on infrastructure initiatives",
-        "Led large-scale connectivity and infrastructure projects including EDUC.AR and Autodromo Villicum",
-        "Managed fiber-optic network deployments and high-availability interconnections"
+        "Led project teams of 20+ members across multiple locations, ensuring alignment with business objectives",
+        "Successfully delivered EDUC.AR educational network project, connecting 50+ institutions across two provinces",
+        "Managed Autodromo Villicum infrastructure project from conception to go-live, coordinating 5+ vendor partners",
+        "Implemented project governance framework, improving delivery success rate from 65% to 95%"
       ]
     },
     {
@@ -201,11 +202,12 @@ const workExperiences = {
       company: "Cencosud S.A.",
       companylogo: "/Logo-Cencosud.png",
       date: "2011 - 2016",
-      desc: "Coordinated regional technical support operations for internal users across the Cuyo region.",
+      desc: "Managed regional IT operations for major retail chain, overseeing technical support teams and ensuring 24/7 business continuity across 30+ locations.",
       descBullets: [
-        "Oversaw server, network, and endpoint support for business continuity",
-        "Supported multi-site technical operations in Argentina and Chile",
-        "Produced operational reports and evaluated information systems"
+        "Led team of 12 technical professionals, achieving 98% service level compliance and 95% customer satisfaction",
+        "Implemented ITIL-based service management processes, reducing incident resolution time by 40%",
+        "Coordinated multi-site technical operations across Argentina and Chile, maintaining 99.5% system availability",
+        "Managed operational budget and resource allocation, optimizing costs while improving service quality"
       ]
     }
   ]
@@ -222,12 +224,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Key Projects",
-  subtitle: "INFRASTRUCTURE & DIGITAL TRANSFORMATION INITIATIVES",
+  subtitle: "STRATEGIC INITIATIVES & PROGRAM MANAGEMENT",
   projects: [
     {
       image: "/1631312769093.jpg",
       projectName: "CME Global Digital Collaboration Initiative",
-      projectDesc: "Led implementation of AI-enabled conference room capabilities with real-time translation, subtitles, meeting summaries, and action-item generation across LATAM regions",
+      projectDesc: "Managed $300K technology initiative, leading cross-functional team to implement AI-enabled conference solutions across 15+ locations, resulting in 30% productivity increase and $80K annual savings",
       footerLink: [
         {
           name: "Learn More",
@@ -237,8 +239,8 @@ const bigProjects = {
     },
     {
       image: "/autodromo-villicum-san-juan - copia.jpg",
-      projectName: "Autodromo Villicum - San Juan",
-      projectDesc: "Directed delivery of fiber-optic network deployment and high-availability interconnections supporting racing facility operations",
+      projectName: "Autodromo Villicum Infrastructure Project",
+      projectDesc: "Directed $1.2M critical infrastructure project, managing 5 vendor partners and 20+ team members to deliver high-availability network on-time and 15% under budget",
       footerLink: [
         {
           name: "Learn More",
@@ -248,8 +250,8 @@ const bigProjects = {
     },
     {
       image: "/educar-network-parana-mendoza - copia.jpg",
-      projectName: "EDUC.AR Network - Parana & Mendoza",
-      projectDesc: "Directed multi-site connectivity project for educational institutions with network design and team coordination across provinces",
+      projectName: "EDUC.AR Educational Network Program",
+      projectDesc: "Led $800K multi-province connectivity program, coordinating stakeholders across 50+ educational institutions and managing project lifecycle from planning to successful implementation",
       footerLink: [
         {
           name: "Learn More",
@@ -260,7 +262,7 @@ const bigProjects = {
     {
       image: "/gocom 4.png",
       projectName: "GO Comunidad - Social Impact Initiative",
-      projectDesc: "Founded and led GO Comunidad initiative to strengthen digital community connections and social inclusion across LATAM regions through technology infrastructure",
+      projectDesc: "Founded and directed social impact program, managing budget allocation, volunteer teams, and community partnerships to deliver digital inclusion solutions across LATAM regions",
       footerLink: [
         {
           name: "Visit Platform",

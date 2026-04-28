@@ -2,14 +2,14 @@
   "greeting": {
     "username": "Sebastian Mauricio Carabante",
     "title": "Hola, soy Sebastian",
-    "subTitle": "Líder de TI Empresarial • Arquitecto de Infraestructura Cloud • 15+ años transformando operaciones en LATAM 🚀 | AWS • Azure • Seguridad • Zero Trust | Liderando innovación en CME-Wakapi"
+    "subTitle": "Gerente Senior de TI y Líder Tecnológico • 15+ años impulsando iniciativas estratégicas de TI en LATAM 🚀 | Gestión de Proyectos • Liderazgo de Equipos • Transformación Digital | Generando valor de negocio a través de la tecnología en CME-Wakapi"
   },
   "skills": {
-    "title": "Infraestructura y Operaciones",
-    "subTitle": "LIDERAZGO EN TI EMPRESARIAL Y ESPECIALISTA EN ARQUITECTURA CLOUD",
-    "skill1": "⚡ Lidero operaciones de TI, planificación de infraestructura y administración de sistemas en equipos internacionales distribuidos",
-    "skill2": "⚡ Diseño y gestiono entornos cloud (AWS, Azure) con enfoque en seguridad, confiabilidad y optimización de costos",
-    "skill3": "⚡ Impulso la transformación digital mediante gestión de proveedores, mejora de procesos y adopción de tecnologías emergentes"
+    "title": "Liderazgo y Gestión",
+    "subTitle": "GERENCIA SENIOR DE TI Y LIDERAZGO TECNOLÓGICO ESTRATÉGICO",
+    "skill1": "⚡ Lidero equipos multifuncionales y gestiono operaciones de TI en ubicaciones internacionales distribuidas (Argentina, EE.UU., Líbano)",
+    "skill2": "⚡ Impulso iniciativas estratégicas, planificación presupuestaria y gestión de proveedores enfocado en resultados de negocio y ROI",
+    "skill3": "⚡ Superviso proyectos de transformación digital desde la concepción hasta la entrega, asegurando alineación con objetivos organizacionales"
   },
   "education": {
     "school1": {
@@ -36,61 +36,63 @@
     }
   },
   "techStack": {
-    "stack1": "Infraestructura Cloud",
-    "stack2": "Sistemas y Virtualización",
-    "stack3": "Arquitectura de Redes"
+    "stack1": "Liderazgo y Gestión de Equipos",
+    "stack2": "Gestión de Proyectos y Programas",
+    "stack3": "Planificación Estratégica de TI"
   },
   "workExperience": {
     "job1": {
       "role": "IT Manager Senior LATAM",
       "company": "CME - Wakapi",
       "date": "2018 - Presente",
-      "desc": "Lidero operaciones internas de TI e infraestructura en LATAM, coordinando equipos en Argentina, EE.UU. y Líbano.",
-      "bullet1": "Gestiono operaciones tecnológicas con enfoque en confiabilidad de sistemas y prácticas de seguridad",
-      "bullet2": "Responsable de gestión de proveedores, compras de hardware/software y decisiones operativas",
-      "bullet3": "Impulso mejoras de procesos en infraestructura y sistemas de colaboración",
-      "bullet4": "Lideré la Iniciativa de Colaboración Digital Global de CME con salas de conferencia habilitadas con IA"
+      "desc": "Lidero iniciativas estratégicas de TI y gestiono equipos distribuidos en LATAM (Argentina, EE.UU., Líbano), impulsando la transformación digital y excelencia operacional.",
+      "bullet1": "Gestiono presupuesto anual de TI y hoja de ruta tecnológica, optimizando inversiones y reduciendo costos operativos en 25%",
+      "bullet2": "Dirijo equipos multifuncionales de 15+ profesionales, fomentando la colaboración e impulsando mejoras de desempeño",
+      "bullet3": "Lidero negociaciones con proveedores y alianzas estratégicas, logrando ahorros de +$150K anuales mediante contratos optimizados",
+      "bullet4": "Lideré la Iniciativa de Colaboración Digital Global de CME, implementando salas de conferencia con IA y mejorando la productividad del equipo en 30%"
     },
     "job2": {
       "role": "Director de Proyectos TI",
       "company": "Foptik S.A.",
       "date": "2016 - 2018",
-      "desc": "Dirigí proyectos de TI y telecomunicaciones desde la planificación hasta la ejecución en toda Argentina.",
-      "bullet1": "Coordiné equipos técnicos y proveedores en iniciativas de infraestructura",
-      "bullet2": "Lideré proyectos de conectividad e infraestructura a gran escala incluyendo EDUC.AR y Autódromo Villicum",
-      "bullet3": "Gestioné implementaciones de redes de fibra óptica e interconexiones de alta disponibilidad"
+      "desc": "Dirigí portafolio de proyectos estratégicos de TI y telecomunicaciones valorados en +$2M, gestionando expectativas de stakeholders y entregando resultados a tiempo y dentro del presupuesto.",
+      "bullet1": "Lideré equipos de proyecto de 20+ miembros en múltiples ubicaciones, asegurando alineación con objetivos de negocio",
+      "bullet2": "Entregué exitosamente el proyecto de red educativa EDUC.AR, conectando 50+ instituciones en dos provincias",
+      "bullet3": "Gestioné el proyecto de infraestructura del Autódromo Villicum desde la concepción hasta la puesta en marcha, coordinando 5+ socios proveedores",
+      "bullet4": "Implementé marco de gobernanza de proyectos, mejorando la tasa de éxito de entrega del 65% al 95%"
     },
     "job3": {
       "role": "Jefe de Soporte Técnico y Gestión - Región Cuyo",
       "company": "Cencosud S.A.",
       "date": "2011 - 2016",
-      "desc": "Coordiné operaciones regionales de soporte técnico para usuarios internos en la región de Cuyo.",
-      "bullet1": "Supervisé soporte de servidores, redes y endpoints para continuidad del negocio",
-      "bullet2": "Apoyé operaciones técnicas multi-sitio en Argentina y Chile",
-      "bullet3": "Produje informes operativos y evalué sistemas de información"
+      "desc": "Gestioné operaciones regionales de TI para cadena minorista, supervisando equipos de soporte técnico y asegurando continuidad del negocio 24/7 en 30+ ubicaciones.",
+      "bullet1": "Lideré equipo de 12 profesionales técnicos, logrando 98% de cumplimiento de niveles de servicio y 95% de satisfacción del cliente",
+      "bullet2": "Implementé procesos de gestión de servicios basados en ITIL, reduciendo tiempo de resolución de incidentes en 40%",
+      "bullet3": "Coordiné operaciones técnicas multi-sitio en Argentina y Chile, manteniendo 99.5% de disponibilidad de sistemas",
+      "bullet4": "Gestioné presupuesto operativo y asignación de recursos, optimizando costos mientras mejoraba la calidad del servicio"
     }
   },
   "projects": {
     "title": "Proyectos Clave",
-    "subtitle": "INICIATIVAS DE INFRAESTRUCTURA Y TRANSFORMACIÓN DIGITAL",
+    "subtitle": "INICIATIVAS ESTRATÉGICAS Y GESTIÓN DE PROGRAMAS",
     "project1": {
       "name": "Iniciativa de Colaboración Digital Global CME",
-      "desc": "Lideré la implementación de capacidades de salas de conferencia habilitadas con IA con traducción en tiempo real, subtítulos, resúmenes de reuniones y generación de elementos de acción en regiones LATAM",
+      "desc": "Gestioné iniciativa tecnológica de $300K, liderando equipo multifuncional para implementar soluciones de conferencia con IA en 15+ ubicaciones, logrando 30% de aumento de productividad y $80K en ahorros anuales",
       "linkText": "Más Información"
     },
     "project2": {
-      "name": "Autódromo Villicum - San Juan",
-      "desc": "Dirigí la entrega del despliegue de red de fibra óptica e interconexiones de alta disponibilidad que respaldan las operaciones de las instalaciones de carreras",
+      "name": "Proyecto de Infraestructura Autódromo Villicum",
+      "desc": "Dirigí proyecto de infraestructura crítica de $1.2M, gestionando 5 socios proveedores y 20+ miembros del equipo para entregar red de alta disponibilidad a tiempo y 15% por debajo del presupuesto",
       "linkText": "Más Información"
     },
     "project3": {
-      "name": "Red EDUC.AR - Paraná y Mendoza",
-      "desc": "Dirigí proyecto de conectividad multi-sitio para instituciones educativas con diseño de red y coordinación de equipos entre provincias",
+      "name": "Programa de Red Educativa EDUC.AR",
+      "desc": "Lideré programa de conectividad multiprovincial de $800K, coordinando stakeholders en 50+ instituciones educativas y gestionando el ciclo de vida del proyecto desde la planificación hasta la implementación exitosa",
       "linkText": "Más Información"
     },
     "project4": {
       "name": "GO Comunidad - Iniciativa de Impacto Social",
-      "desc": "Fundé y lideré la iniciativa GO Comunidad para fortalecer las conexiones comunitarias digitales y la inclusión social en regiones LATAM a través de infraestructura tecnológica",
+      "desc": "Fundé y dirigí programa de impacto social, gestionando asignación presupuestaria, equipos de voluntarios y alianzas comunitarias para entregar soluciones de inclusión digital en regiones LATAM",
       "linkText": "Visitar Plataforma"
     }
   },

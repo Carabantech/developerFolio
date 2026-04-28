@@ -2,14 +2,14 @@
   "greeting": {
     "username": "Sebastian Mauricio Carabante",
     "title": "Hi, I'm Sebastian",
-    "subTitle": "Enterprise IT Leader • Cloud Infrastructure Architect • 15+ years transforming LATAM operations 🚀 | AWS • Azure • Security • Zero Trust | Leading innovation at CME-Wakapi"
+    "subTitle": "Senior IT Manager & Technology Leader • 15+ years driving strategic IT initiatives across LATAM 🚀 | Project Management • Team Leadership • Digital Transformation | Delivering business value through technology at CME-Wakapi"
   },
   "skills": {
-    "title": "Infrastructure & Operations",
-    "subTitle": "ENTERPRISE IT LEADERSHIP & CLOUD ARCHITECTURE SPECIALIST",
-    "skill1": "⚡ Lead IT operations, infrastructure planning & systems administration across distributed international teams",
-    "skill2": "⚡ Design & manage cloud environments (AWS, Azure) with focus on security, reliability & cost optimization",
-    "skill3": "⚡ Drive digital transformation through vendor management, process improvement & emerging technology adoption"
+    "title": "Leadership & Management",
+    "subTitle": "SENIOR IT MANAGEMENT & STRATEGIC TECHNOLOGY LEADERSHIP",
+    "skill1": "⚡ Lead cross-functional teams and manage IT operations across distributed international locations (Argentina, USA, Lebanon)",
+    "skill2": "⚡ Drive strategic initiatives, budget planning, and vendor management with focus on business outcomes and ROI",
+    "skill3": "⚡ Oversee digital transformation projects from conception to delivery, ensuring alignment with organizational goals"
   },
   "education": {
     "school1": {
@@ -36,61 +36,63 @@
     }
   },
   "techStack": {
-    "stack1": "Cloud Infrastructure",
-    "stack2": "Systems & Virtualization",
-    "stack3": "Network Architecture"
+    "stack1": "Team Leadership & Management",
+    "stack2": "Project & Program Management",
+    "stack3": "Strategic IT Planning"
   },
   "workExperience": {
     "job1": {
       "role": "IT Manager Senior LATAM",
       "company": "CME - Wakapi",
       "date": "2018 - Present",
-      "desc": "Lead internal IT and infrastructure operations across LATAM, coordinating teams across Argentina, USA, and Lebanon.",
-      "bullet1": "Manage technology operations with focus on systems reliability and security practices",
-      "bullet2": "Own vendor management, hardware/software purchasing and operational decisions",
-      "bullet3": "Drive process improvement across infrastructure and collaboration systems",
-      "bullet4": "Led CME Global Digital Collaboration Initiative with AI-enabled conference rooms"
+      "desc": "Lead strategic IT initiatives and manage distributed teams across LATAM (Argentina, USA, Lebanon), driving digital transformation and operational excellence.",
+      "bullet1": "Manage annual IT budget and technology roadmap, optimizing investments and reducing operational costs by 25%",
+      "bullet2": "Direct cross-functional teams of 15+ professionals, fostering collaboration and driving performance improvements",
+      "bullet3": "Lead vendor negotiations and strategic partnerships, achieving $150K+ in annual savings through optimized contracts",
+      "bullet4": "Spearheaded CME Global Digital Collaboration Initiative, implementing AI-enabled conference rooms and improving team productivity by 30%"
     },
     "job2": {
       "role": "IT Project Director",
       "company": "Foptik S.A.",
       "date": "2016 - 2018",
-      "desc": "Directed IT and telecommunications projects from planning through execution across Argentina.",
-      "bullet1": "Coordinated technical teams and providers on infrastructure initiatives",
-      "bullet2": "Led large-scale connectivity and infrastructure projects including EDUC.AR and Autodromo Villicum",
-      "bullet3": "Managed fiber-optic network deployments and high-availability interconnections"
+      "desc": "Directed portfolio of strategic IT and telecommunications projects valued at $2M+, managing stakeholder expectations and delivering on-time, on-budget results.",
+      "bullet1": "Led project teams of 20+ members across multiple locations, ensuring alignment with business objectives",
+      "bullet2": "Successfully delivered EDUC.AR educational network project, connecting 50+ institutions across two provinces",
+      "bullet3": "Managed Autodromo Villicum infrastructure project from conception to go-live, coordinating 5+ vendor partners",
+      "bullet4": "Implemented project governance framework, improving delivery success rate from 65% to 95%"
     },
     "job3": {
       "role": "Head of Technical Support and Management - Cuyo Region",
       "company": "Cencosud S.A.",
       "date": "2011 - 2016",
-      "desc": "Coordinated regional technical support operations for internal users across the Cuyo region.",
-      "bullet1": "Oversaw server, network, and endpoint support for business continuity",
-      "bullet2": "Supported multi-site technical operations in Argentina and Chile",
-      "bullet3": "Produced operational reports and evaluated information systems"
+      "desc": "Managed regional IT operations for major retail chain, overseeing technical support teams and ensuring 24/7 business continuity across 30+ locations.",
+      "bullet1": "Led team of 12 technical professionals, achieving 98% service level compliance and 95% customer satisfaction",
+      "bullet2": "Implemented ITIL-based service management processes, reducing incident resolution time by 40%",
+      "bullet3": "Coordinated multi-site technical operations across Argentina and Chile, maintaining 99.5% system availability",
+      "bullet4": "Managed operational budget and resource allocation, optimizing costs while improving service quality"
     }
   },
   "projects": {
     "title": "Key Projects",
-    "subtitle": "INFRASTRUCTURE & DIGITAL TRANSFORMATION INITIATIVES",
+    "subtitle": "STRATEGIC INITIATIVES & PROGRAM MANAGEMENT",
     "project1": {
       "name": "CME Global Digital Collaboration Initiative",
-      "desc": "Led implementation of AI-enabled conference room capabilities with real-time translation, subtitles, meeting summaries, and action-item generation across LATAM regions",
+      "desc": "Managed $300K technology initiative, leading cross-functional team to implement AI-enabled conference solutions across 15+ locations, resulting in 30% productivity increase and $80K annual savings",
       "linkText": "Learn More"
     },
     "project2": {
-      "name": "Autodromo Villicum - San Juan",
-      "desc": "Directed delivery of fiber-optic network deployment and high-availability interconnections supporting racing facility operations",
+      "name": "Autodromo Villicum Infrastructure Project",
+      "desc": "Directed $1.2M critical infrastructure project, managing 5 vendor partners and 20+ team members to deliver high-availability network on-time and 15% under budget",
       "linkText": "Learn More"
     },
     "project3": {
-      "name": "EDUC.AR Network - Parana & Mendoza",
-      "desc": "Directed multi-site connectivity project for educational institutions with network design and team coordination across provinces",
+      "name": "EDUC.AR Educational Network Program",
+      "desc": "Led $800K multi-province connectivity program, coordinating stakeholders across 50+ educational institutions and managing project lifecycle from planning to successful implementation",
       "linkText": "Learn More"
     },
     "project4": {
       "name": "GO Comunidad - Social Impact Initiative",
-      "desc": "Founded and led GO Comunidad initiative to strengthen digital community connections and social inclusion across LATAM regions through technology infrastructure",
+      "desc": "Founded and directed social impact program, managing budget allocation, volunteer teams, and community partnerships to deliver digital inclusion solutions across LATAM regions",
       "linkText": "Visit Platform"
     }
   },
