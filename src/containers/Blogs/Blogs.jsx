@@ -1,12 +1,28 @@
-import React from "react";
+"use client";
+
+import React, {useState, useEffect} from "react";
 import {blogSection} from "../../portfolio";
 import styles from "./Blogs.module.scss";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import {getMediumBlogs} from "../../client/mediumBlogs";
 import {extractTextContentFromHtml} from "../../utils";
 
-async function Blogs() {
-  const mediumBlogs = await getMediumBlogs();
+function Blogs() {
+  const [mediumBlogs, setMediumBlogs] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchBlogs() {
+      const blogs = await getMediumBlogs();
+      setMediumBlogs(blogs);
+      setLoading(false);
+    }
+    fetchBlogs();
+  }, []);
+
+  if (loading) {
+    return <div className="main" id="blogs">Loading blogs...</div>;
+  }
 
   return (
     <div className="main" id="blogs">
